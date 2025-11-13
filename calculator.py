@@ -30,11 +30,12 @@ while True:
 
     if choice=="1":
         print(f"The Addition of two number is : {add(number1, number2)}")
-    if choice=="2":
+    elif choice=="2":
         print(f"The subtraction of two number is : {sub(number1,number2)}")
-    if choice=="3":
+    elif choice=="3":
         print(f"The Multiplication of two number is : {mul(number1,number2)}")
-    if choice=="4":
+    elif choice=="4":
         print(f"The Division of two number is :{div(number1,number2)}")
     else:
         print("Invalid Operation")
+
